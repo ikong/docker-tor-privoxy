@@ -1,0 +1,15 @@
+# CircuitBuildTimeout 45
+# LearnCircuitBuildTimeout 1
+# CircuitStreamTimeout 1
+# SocksTimeout 20
+# NewCircuitPeriod 30
+# CircuitIdleTimeout 120
+# MaxCircuitDirtiness 300
+
+SocksListenAddress 0.0.0.0
+SocksPort 9050
+
+ControlListenAddress 0.0.0.0
+ControlPort 9051
+HashedControlPassword 16:41464F3FB8A39E5E60897997D7F6EB3F3E2A5F7800BAE0A8842E3FB0CA
+# HashedControlPassword = "pass"
